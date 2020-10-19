@@ -2,3 +2,5 @@
 .vs
 bin
 obj
+mono_crash.**.json
+*.dll
