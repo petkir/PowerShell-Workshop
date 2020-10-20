@@ -1,7 +1,8 @@
-$array = @("item1", "item2", "item3")
-for($i = 0; $i -lt $array.length; $i++){ $array[$i] }
+$array1 = @("item1", "item2", "item3")
+for($i = 0; $i -lt $array1.length; $i++){ $array1[$i] }
 
-while($counter -lt $array.length){
-    $array[$counter]
+$counter =0
+while($counter -lt $array1.length){
+    $array1[$counter]
     $counter += 1
  }

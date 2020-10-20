@@ -3,7 +3,7 @@ using System.Management.Automation;
 
 namespace SampleCmdlets
 {
-    [Cmdlet(VerbsDiagnostic.Test, "BinaryModuleCmdlet1")]
+    [Cmdlet("New", "BinaryModuleCmdlet1")]
     public class TestBinaryModuleCmdlet1Command : Cmdlet
     {
         protected override void BeginProcessing()

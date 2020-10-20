@@ -21,7 +21,7 @@ Function DoStuff(){
     param(
         [Parameter(Mandatory=$true)][string]$computername,
         [Parameter(Mandatory=$false)][string]$arg2,
-        [Parameter(Mandatory=$false)][string]$domain
+        [Parameter(Mandatory=$false)][string]$domain="sdfsdf"
     )
     if(!($domain)){
         $domain = 'domain1'

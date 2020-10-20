@@ -6,6 +6,14 @@ if($x -le 20){
    write-host("This is else statement")
 }
 
+$x = 10
+
+if($x -le 20 -AND $x -gt 10){
+   write-host("This is if statement")
+}else {
+   write-host("This is else statement")
+}
+
 
 switch(3){
     1 {"One"}

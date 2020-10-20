@@ -26,3 +26,14 @@ Custom Objects
 Execute  Ps in C# Core
 Custom Modules
 Custom Binary Cmdlets
+
+
+try{
+    [Calc]::Divide(8,0)
+    Write-Host "Hugo"
+}catch {
+    Write-Host "X"
+}
+
+
+

@@ -19,6 +19,8 @@ Get-Content D:\temp\Test\test.txt
 
 Set-Content D:\temp\test\test.txt 'Welcome to my Sample'
 
+Get-Content  c:\temp\test.txt -Tail 10 -Wait
+
 Get-Date
 
 
